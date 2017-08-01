@@ -1,0 +1,21 @@
+# Site settings
+title: Salty Light for the Way 
+header-img: img/home-bg.png
+email: gentile.bond@gmail.com
+copyright_name: Gentile49
+description: > # this means to ignore newlines until "baseurl:"
+  Neuro Linguistic Programming for the AI modules in your brain. 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: NinianBond
+github_username:  Gentile49
+learn_profile: Gentile49
+email_username: gentile.bond@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
